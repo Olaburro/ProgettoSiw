@@ -1,0 +1,56 @@
+CASI D'USO IMPLEMENTATI NEL PROGETTO
+
+AGGIUNGERE UN TASK AD UN PROGETTO
+	Un utente ha la possibilità di aggiungere un Task tramite un pulsante CREATE TASK presente nella pagina del progetto interessato.
+	Così facendo verrà creata un'istanza Task, inizializzata con i dati passati dall'utente, aggiunto alla lista di
+	task del progetto interessato e poi salvato nel DB.
+
+AGGIORNARE UN TASK DI UN PROGETTO
+	Un utente ha la possibiltà di cambiare nome o descrizione di un Task presente in un Progetto tramite il pulsante EDIT TASK 
+	presente nella pagina del Task interessato.Così facendo verrà aperta l'istanza della Task interessata, verranno cambiati nome e 
+	descrizione per poi essere salvato, con i nuovi dati, nel DB;
+
+CANCELLARE UN TASK DA UN PROGETTO
+	Un utente ha la possibiltà di cancellare un Task da un progetto tramite un pulsante DELETE TASK presente nella pagina del Task
+	interessato. Così facendo, viene selezionato il Task desiderato, cancellata l'istanza ed eliminato dal DB e dalla lista di 
+	task del progetto.
+
+VISUALIZZARE PROGETTI CONDIVISI CON LO USER
+	Un utente ha la possibilità di visualizzare tutti i progetti condivisi con lui creati da altri user. Questo può avvenire solo nel
+	caso in cui esistano più di un solo utente e che uno di essi abbia condiviso il progetto.
+
+CONDIVIDERE UN PROGETTO CON UN ALTRO USER
+	Un utente ha la possibilità di condividere un progetto in suo possesso con un altro utente. Questo può avvenire solo nel caso in 
+	cui esistano più di un solo utente e che l'utente corrente abbia creato un progetto.
+
+CANCELLARE UN PROGETTO
+	Un utente ha la possibilità di cancellare un progetto in suo possesso tramite un pulsante DELETE presente nella lista dei progetti
+	in possesso dell'utente corrente. Questo può avvenire solo nel caso in cui sia presente almeno un progetto creato dall'utente corrente
+
+AGGIUNGERE UN PROGETTO
+	Un utente ha la possibilità di creare un progetto, inizializzandolo con i dati interessati ed aggiungerlo alla lista dei progetti
+	creati ed in suo possesso. Così facendo si crea un'istanza Progetto, inizializzato con i dati passati dall'utente e successivamente
+	salvato nel DB.
+ 
+AGGIORNARE I DATI DI UN PROGETTO
+	Un utente ha la possibilità di editare un progetto cambiando i suoi dati attraverso un pulsante EDIT presente nella pagina del progetto
+	interessato.
+
+LOGIN
+	Un utente per accedere al sistema deve effettuare un accesso inserendo i dati username e password selezionati al momento della
+	registrazione. Questo può avvenire solo nel momento in cui l'utente corrente ha effettuato la registrazione.
+
+VISUALIZZA I DATI DELLO USER
+	Un utente ha la possibilità di visualizzare i suoi dati (nome, cognome, username, data della registrazione e ultimo aggiornamento) 
+	tramite il pulsante Profile presente nella schermata principale.
+
+AUTENTICAZIONE
+	Il sistema, ricevuto i dati inseriti dall'utente durante il login, controlla le credenziali di tutti gli utenti registrati. Se
+	l'utente corrente ha inserito i dati corretti ed è anche presente tra gli utenti registrati, ha la possiblità di accedere al
+	sistema.
+
+VISUALIZZARE I PROPRI PROGETTI
+	Un utente ha la possibilità di visualizzare tutti i progetti che ha creato e presenti nel DB.
+
+
+		
